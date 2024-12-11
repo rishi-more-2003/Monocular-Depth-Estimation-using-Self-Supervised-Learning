@@ -26,14 +26,12 @@ The monocular depth estimation model comprises:
 
 ## Training Process
 ### Supervised Learning
-- **Dataset**: [Provide details, e.g., KITTI dataset].
 - **Loss Function**: Scale-invariant depth loss.
 - **Results**:
   
   ![Supervised Training Loss](figures/supervised_training_curve.png)
 
 ### Self-Supervised Learning
-- **Dataset**: [Provide details, e.g., stereo images].
 - **Loss Function**: Photometric reconstruction loss.
 - **Results**:
   
